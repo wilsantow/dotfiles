@@ -74,9 +74,11 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 
 " PLUGINS ---------------------------------------------------------------- {{{
-
 " Plugin code goes here.
-
+call plug#begin()
+Plug 'https://github.com/preservim/nerdtree'
+Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
+call plug#end()
 " }}}
 
 
